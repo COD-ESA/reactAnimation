@@ -15,8 +15,10 @@ export function Square() {
   return (
 
     <Transition
-    timeout={1000}
-    in={state}>
+    timeout={5000}
+    in={state}
+    unmountOnExit
+    >
 
       { state => <div className={ `square ${state}` }/>}
 

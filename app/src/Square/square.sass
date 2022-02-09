@@ -3,33 +3,19 @@
   height: 250px
   margin: 50px auto
   background: lime
-  animation: anime 2s ease-in-out 2s infinite
+  animation: anime 2s ease-in-out
 
 @keyframes anime
-  from
-    opacity: 0
-
-  20%
-    opacity: .2
-  40%
-    opacity: .4
   50%
-    opacity: .9
-    background: blue
-  60%
-    opacity: .7
-  80%
-    opacity: .5
-  100%
-    opacity: .1
-    background: lime
-
+    opacity: 0
+    position: absolute
+    left: -100px
 
 .square.entering
-  animation: anime 2s easy-in-out 2s infinite
+  animation: anime 3s ease-in-out
 .square.entered
-  animation: anime 2s easy-in-out 2s infinite
+  animation: anime 3s ease-in-out
 .square.exiting
-  animation: anime 2s easy-in-out 2s infinite
+  animation: anime 3s ease-in-out
 .square.exited
-  animation: anime 2s easy-in-out 2s infinite
+  animation: anime 3s ease-in-out

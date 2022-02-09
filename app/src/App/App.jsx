@@ -20,10 +20,9 @@ function App() {
   return (
     <context.Provider value={{handleSetState, state}}>
       <div className="App">
+
         <Button/>
-
         <Square/>
-
 
       </div>
     </context.Provider>
